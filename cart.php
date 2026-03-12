@@ -27,8 +27,7 @@ if (isset($_POST['update_id'])) {
   $_SESSION['cart'][$_POST['update_id']] = $_POST['update_quantity'];
 }
 
-$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
-$total_price = 0;
+$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8', 'root', '');
 
 foreach ($_SESSION['cart'] as $id => $quantity) {
 
