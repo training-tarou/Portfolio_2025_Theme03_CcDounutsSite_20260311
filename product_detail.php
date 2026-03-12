@@ -8,11 +8,7 @@ $id = isset($_GET['id']) ? $_GET['id'] : 1;
 
 <?php
 // 2.データベース接続
-$pdo = new PDO(
- 'mysql:host=localhost;dbname=ccdonuts;charset=utf8',
- 'root',
- ''
-);
+$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
 ?>
 
 <?php

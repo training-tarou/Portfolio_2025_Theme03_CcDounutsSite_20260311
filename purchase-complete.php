@@ -3,7 +3,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 // 1. データベースに接続
-$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
 
 // 2. カートの中身があるか確認
 if (!empty($_SESSION['cart'])) {

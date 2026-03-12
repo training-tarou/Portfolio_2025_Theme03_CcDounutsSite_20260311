@@ -12,7 +12,7 @@ ini_set('display_errors', "On");
 
 <?php
 // 1. データベースに接続
-$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
 
 // 2. ランキング用の商品を取得（例えば売上順など）
 // sales_countが多い順（DESC）に上から6つ取得する

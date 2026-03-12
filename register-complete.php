@@ -19,7 +19,8 @@ $email = $_POST['email'] ?? '';
 $password = password_hash($_POST['password'] ?? '', PASSWORD_DEFAULT);
 
 // データベース接続
-$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8','root','');
+$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
+
 
 // SQL（会員登録）
 $sql = $pdo->prepare(
