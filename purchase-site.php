@@ -8,7 +8,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 require 'includes/header.php';
 
-$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
+$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8', 'root', '');
 
 $customer = [];
 if (isset($_SESSION['customer']['id'])) {

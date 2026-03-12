@@ -10,7 +10,7 @@ require 'includes/header.php';
 //unset($_SESSION['customer']);
 
 // 2. データベース接続
-$pdo = new PDO('mysql:host=localhost;dbname=tailgan449_ccdonuts20260311;charset=utf8', 'tailgan449_ccdonuts20260311', 'PWdonuts260311');
+$pdo = new PDO('mysql:host=localhost;dbname=ccdonuts;charset=utf8', 'root', '');
 
 
 // 3. 入力値を受け入れる(この内容は、生成AIより入手)
